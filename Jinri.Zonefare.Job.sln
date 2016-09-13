@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.Job", "Jinri.Zonefare.Job\Jinri.Zonefare.Job.csproj", "{767D1097-B0B0-4B65-816D-2FAB0A717777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDll", "ReferenceDll", "{270B886E-B4AC-4685-83A8-532D24432F2C}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceDll\C5.dll = ReferenceDll\C5.dll
+		ReferenceDll\Common.Logging.dll = ReferenceDll\Common.Logging.dll
+		ReferenceDll\log4net.dll = ReferenceDll\log4net.dll
+		ReferenceDll\Quartz.dll = ReferenceDll\Quartz.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.Business", "Jinri.Zonefare.Business\Jinri.Zonefare.Business.csproj", "{D715ED32-D0B8-457D-8EF8-40DE1D72C507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.Data", "Jinri.Zonefare.Data\Jinri.Zonefare.Data.csproj", "{D789C1BA-DDB8-449F-A2C5-4C8B0770F9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.Common", "Jinri.Zonefare.Common\Jinri.Zonefare.Common.csproj", "{26F1690A-30A6-43F1-9408-32C22CD41D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.Model", "Jinri.Zonefare.Model\Jinri.Zonefare.Model.csproj", "{2AC823EE-5D9F-429D-8C06-2DE5D5A256DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinri.Zonefare.JobService", "Jinri.Zonefare.JobService\Jinri.Zonefare.JobService.csproj", "{57C1A18A-51BB-40C6-933F-CBB535B61C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767D1097-B0B0-4B65-816D-2FAB0A717777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767D1097-B0B0-4B65-816D-2FAB0A717777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767D1097-B0B0-4B65-816D-2FAB0A717777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767D1097-B0B0-4B65-816D-2FAB0A717777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D715ED32-D0B8-457D-8EF8-40DE1D72C507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D715ED32-D0B8-457D-8EF8-40DE1D72C507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D715ED32-D0B8-457D-8EF8-40DE1D72C507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D715ED32-D0B8-457D-8EF8-40DE1D72C507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D789C1BA-DDB8-449F-A2C5-4C8B0770F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D789C1BA-DDB8-449F-A2C5-4C8B0770F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D789C1BA-DDB8-449F-A2C5-4C8B0770F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D789C1BA-DDB8-449F-A2C5-4C8B0770F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F1690A-30A6-43F1-9408-32C22CD41D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F1690A-30A6-43F1-9408-32C22CD41D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F1690A-30A6-43F1-9408-32C22CD41D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F1690A-30A6-43F1-9408-32C22CD41D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC823EE-5D9F-429D-8C06-2DE5D5A256DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC823EE-5D9F-429D-8C06-2DE5D5A256DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC823EE-5D9F-429D-8C06-2DE5D5A256DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC823EE-5D9F-429D-8C06-2DE5D5A256DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C1A18A-51BB-40C6-933F-CBB535B61C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C1A18A-51BB-40C6-933F-CBB535B61C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C1A18A-51BB-40C6-933F-CBB535B61C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C1A18A-51BB-40C6-933F-CBB535B61C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
