@@ -13,6 +13,7 @@ namespace Jinri.Zonefare.Job
     {
         static void Main(string[] args)
         {
+            //日志地址
             log4net.Config.XmlConfigurator.ConfigureAndWatch(new FileInfo(AppDomain.CurrentDomain.BaseDirectory + "log4net.config"));
             JobService js = new JobService();
             js.OnStart();
